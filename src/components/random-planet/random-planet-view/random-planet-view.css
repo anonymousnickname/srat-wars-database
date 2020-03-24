@@ -1,0 +1,22 @@
+.planet-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.list-group {
+    margin-top: 1rem;
+}
+
+.list-group-item {
+    padding: .3rem;
+}
+
+.list-group-item .term {
+    margin-right: .7rem;
+}
+
+.list-group-item__info {
+    color: #f0ffff;
+}

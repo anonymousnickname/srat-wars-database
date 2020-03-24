@@ -1,0 +1,7 @@
+.random-planet {
+    display: flex;
+    padding: 1rem;
+    border-radius: 10px;
+    position: relative;
+    min-height: 185px;
+}

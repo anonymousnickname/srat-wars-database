@@ -1,0 +1,37 @@
+.header {
+    margin-top: .5rem;
+    padding-left: 10px;
+    padding: 1rem;
+}
+
+.header ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color .2s linear;
+}
+
+.header ul li:hover {
+    background-color: #444;
+}
+
+.header ul li:hover a {
+    color: #ff0000;
+}
+
+.header ul li a {
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.header h3 a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s linear;
+}
+
+.header h3 a:hover {
+    color: #00bc8c;
+}
