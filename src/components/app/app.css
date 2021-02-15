@@ -2,8 +2,22 @@ body {
     font-size: 16px;
 }
 
-.app {
+.stardb-app {
     margin: 0px auto;
     width: 95%;
     max-width: 100%;
+}
+
+.toggle-planet {
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

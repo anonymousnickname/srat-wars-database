@@ -15,8 +15,9 @@
 
 .list-group-item .term {
     margin-right: .7rem;
+    color: #f0ffff;
 }
 
 .list-group-item__info {
-    color: #f0ffff;
+    color: #ffcfa8;
 }

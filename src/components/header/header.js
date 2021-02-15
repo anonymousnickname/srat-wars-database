@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import './header.css';
 
-const Header = () => {
+export default class Header extends Component {
+
+    componentDidCatch(error, errorInfo) {
+        this.setState({error: true})
+    };
+
+    render () {
     return (
         <div className="header d-flex">
         <h3>
@@ -23,6 +29,5 @@ const Header = () => {
         </ul>
         </div>
 );
+    }
 };
-
-export default Header;
